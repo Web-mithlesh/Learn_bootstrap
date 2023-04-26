@@ -1,0 +1,51 @@
+.container{
+    background: grey;
+
+}
+
+
+
+#header{
+    background: orange;
+    text-align: center;
+}
+
+#menu{
+    display: flex;
+    align-content: space-around;
+    align-items: center;
+    background: #555;
+}
+#menu h1{
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#menu ul{
+    display: inline-block;
+    list-style: none;
+}
+#menu li{
+    display: inline-block;
+    padding: 10px;
+}
+
+#Side-links ul{
+    margin: 10px;
+    list-style: none;
+    background: lightblue;
+}
+
+#content{
+    background: #fff;
+}
+
+#content h2{
+    text-align: center
+}
+
+#footer{
+    background: yellowgreen;
+    text-align: center;
+}
+
